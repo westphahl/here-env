@@ -28,7 +28,7 @@ def cli(prompt):
     if not venv_dir.exists():
         click.echo(f"Creating new venv in '{venv_dir}'", err=True)
         prompt = prompt or work_root.name
-        venv.create(venv_dir, prompt=prompt)
+        venv.create(venv_dir, prompt=prompt, with_pip=True)
 
     activate_script = venv_dir / "bin/activate"
     click.echo(f"Activating '{venv_dir}'", err=True)

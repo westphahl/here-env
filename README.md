@@ -1,6 +1,6 @@
 # here-env
 
-Small helper to create and active virtuel environments.
+Small helper to create and activate virtual environments.
 
 ## Usage
 

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "here-env"
 version = "0.2.0"
-description = "Small helper to create and active virtuel environments."
+description = "Small helper to create and activate virtual environments."
 authors = ["Simon Westphahl <simon@westphahl.net>"]
 license = "MIT"
 readme = "README.md"

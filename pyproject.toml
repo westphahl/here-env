@@ -5,6 +5,7 @@ description = "Small helper to create and activate virtual environments."
 authors = ["Simon Westphahl <simon@westphahl.net>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/westphahl/here-env"
 
 [tool.poetry.dependencies]
 python = "^3.8"
